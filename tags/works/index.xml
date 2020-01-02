@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作品紹介 | Computer House Random</title>
+    <link>https://ch-random.net/tags/works/</link>
+      <atom:link href="https://ch-random.net/tags/works/index.xml" rel="self" type="application/rss+xml" />
+    <description>作品紹介</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>computer.house.random@gmail.com</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ch-random.net/img/icon-192.png</url>
+      <title>作品紹介</title>
+      <link>https://ch-random.net/tags/works/</link>
+    </image>
+    
+    <item>
+      <title>Rectas</title>
+      <link>https://ch-random.net/post/2/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/2/</guid>
+      <description>&lt;p&gt;Rectas!!!as;ldkfjaslfjsal;kjfl;askjflajflkasjf;lja;ldfkjsalfjals;jf;lksajfjasfljaslfjklsajfl;asjfkasjflkjfljlskfjlsa;fjl;sajflksdjflsflksjafjsdfljskalf&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rectas</title>
+      <link>https://ch-random.net/post/3/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/3/</guid>
+      <description>&lt;p&gt;Rectas!!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
