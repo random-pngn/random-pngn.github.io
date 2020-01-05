@@ -83,6 +83,16 @@
   </url>
   
   <url>
+    <loc>https://ch-random.net/post/12/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ch-random.net/post/13/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ch-random.net/post/10/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
   </url>
@@ -162,6 +172,10 @@
   
   <url>
     <loc>https://ch-random.net/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ch-random.net/license/</loc>
   </url>
   
 </urlset>

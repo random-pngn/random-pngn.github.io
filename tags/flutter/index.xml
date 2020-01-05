@@ -7,7 +7,7 @@
     <description>flutter</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>computer.house.random@gmail.com</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ch-random.net/img/icon-192.png</url>
+      <url>https://ch-random.net/img/icon.png</url>
       <title>flutter</title>
       <link>https://ch-random.net/tags/flutter/</link>
     </image>
@@ -78,6 +78,206 @@ int main() {
     
   &lt;a data-fancybox=&#34;gallery-gallery/gallery&#34; href=&#34;https://ch-random.net/post/1/gallery/gallery/3.jpg&#34; &gt;
   &lt;img data-src=&#34;https://ch-random.net/post/1/gallery/gallery/3_hu39d9e2b174aae2f8437249c6c6f0e6e2_28897_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;AAA&lt;/th&gt;
+&lt;th&gt;BBB&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Graph&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
+  A--&amp;gt;B
+  A--&amp;gt;C
+  B--&amp;gt;D
+  C--&amp;gt;D
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flutter入門</title>
+      <link>https://ch-random.net/post/12/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/12/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ch-random.net/authors/pngn/&#34;&gt;pngn&lt;/a&gt;flutter!!!&lt;br&gt;
+Slide is &lt;a href=&#34;https://ch-random.net/slides/1/#&#34; target=&#34;_blank&#34;&gt;HERE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;$x = \frac{y}{z}$&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include&amp;lt;cstdio&amp;gt;
+using namespace std;
+
+int main() {
+  printf(&amp;quot;Hello World\n&amp;quot;);
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Gallery
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery/gallery&#34; href=&#34;https://ch-random.net/post/12/gallery/gallery/1.png&#34; &gt;
+  &lt;img data-src=&#34;https://ch-random.net/post/12/gallery/gallery/1_hu001dff873040ca9a24466f6cc424a9a1_42556_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery/gallery&#34; href=&#34;https://ch-random.net/post/12/gallery/gallery/2.jpg&#34; &gt;
+  &lt;img data-src=&#34;https://ch-random.net/post/12/gallery/gallery/2_hu3e89094e4ba9c39c0069557c7a7c191f_18185_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery/gallery&#34; href=&#34;https://ch-random.net/post/12/gallery/gallery/3.jpg&#34; &gt;
+  &lt;img data-src=&#34;https://ch-random.net/post/12/gallery/gallery/3_hu39d9e2b174aae2f8437249c6c6f0e6e2_28897_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;AAA&lt;/th&gt;
+&lt;th&gt;BBB&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Graph&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
+  A--&amp;gt;B
+  A--&amp;gt;C
+  B--&amp;gt;D
+  C--&amp;gt;D
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flutter入門</title>
+      <link>https://ch-random.net/post/13/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/13/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ch-random.net/authors/pngn/&#34;&gt;pngn&lt;/a&gt;flutter!!!&lt;br&gt;
+Slide is &lt;a href=&#34;https://ch-random.net/slides/1/#&#34; target=&#34;_blank&#34;&gt;HERE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;$x = \frac{y}{z}$&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include&amp;lt;cstdio&amp;gt;
+using namespace std;
+
+int main() {
+  printf(&amp;quot;Hello World\n&amp;quot;);
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Gallery
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery/gallery&#34; href=&#34;https://ch-random.net/post/13/gallery/gallery/1.png&#34; &gt;
+  &lt;img data-src=&#34;https://ch-random.net/post/13/gallery/gallery/1_hu001dff873040ca9a24466f6cc424a9a1_42556_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery/gallery&#34; href=&#34;https://ch-random.net/post/13/gallery/gallery/2.jpg&#34; &gt;
+  &lt;img data-src=&#34;https://ch-random.net/post/13/gallery/gallery/2_hu3e89094e4ba9c39c0069557c7a7c191f_18185_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery/gallery&#34; href=&#34;https://ch-random.net/post/13/gallery/gallery/3.jpg&#34; &gt;
+  &lt;img data-src=&#34;https://ch-random.net/post/13/gallery/gallery/3_hu39d9e2b174aae2f8437249c6c6f0e6e2_28897_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
