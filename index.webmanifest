@@ -2,8 +2,8 @@
   "name": "Computer House Random",
   "short_name": "Computer House Random",
   "lang": "ja",
-  "theme_color": "#67c5ff",
-  "background_color": "#67c5ff",
+  "theme_color": "#4169e1",
+  "background_color": "#4169e1",
   "icons": [{
     "src": "../img/icon-192.png",
     "sizes": "192x192",
