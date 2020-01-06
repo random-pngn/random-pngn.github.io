@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>あ | Computer House Random</title><link>https://ch-random.net/tags/%E3%81%82/</link><atom:link href="https://ch-random.net/tags/%E3%81%82/index.xml" rel="self" type="application/rss+xml"/><description>あ</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>computer.house.random@gmail.com</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate><image><url>https://ch-random.net/img/icon.png</url><title>あ</title><link>https://ch-random.net/tags/%E3%81%82/</link></image><item><title>Flutter入門</title><link>https://ch-random.net/post/1/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://ch-random.net/post/1/</guid><description>&lt;p>&lt;a href="https://ch-random.net/authors/pngn/">pngn&lt;/a>flutter!!!&lt;br>
+Slide is &lt;a href="https://ch-random.net/slides/1/#" target="_blank">HERE&lt;/a>&lt;/p>
+&lt;p>$x = \frac{y}{z}$&lt;/p>
+&lt;pre>&lt;code class="language-c++">#include&amp;lt;cstdio&amp;gt;
+using namespace std;
+int main() {
+printf(&amp;quot;Hello World\n&amp;quot;);
+return 0;
+}
+&lt;/code>&lt;/pre>
+&lt;p>Gallery
+&lt;div class="gallery">
+&lt;a data-fancybox="gallery-gallery/gallery" href="https://ch-random.net/post/1/gallery/gallery/1.png" >
+&lt;img data-src="https://ch-random.net/post/1/gallery/gallery/1_hu001dff873040ca9a24466f6cc424a9a1_42556_0x190_resize_lanczos_2.png" class="lazyload" alt="">
+&lt;/a>
+&lt;a data-fancybox="gallery-gallery/gallery" href="https://ch-random.net/post/1/gallery/gallery/2.jpg" >
+&lt;img data-src="https://ch-random.net/post/1/gallery/gallery/2_hu3e89094e4ba9c39c0069557c7a7c191f_18185_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="">
+&lt;/a>
+&lt;a data-fancybox="gallery-gallery/gallery" href="https://ch-random.net/post/1/gallery/gallery/3.jpg" >
+&lt;img data-src="https://ch-random.net/post/1/gallery/gallery/3_hu39d9e2b174aae2f8437249c6c6f0e6e2_28897_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="">
+&lt;/a>
+&lt;/div>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>AAA&lt;/th>
+&lt;th>BBB&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>A&lt;/td>
+&lt;td>B&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>C&lt;/td>
+&lt;td>D&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Graph&lt;/p>
+&lt;pre>&lt;code class="language-mermaid">graph TD
+A--&amp;gt;B
+A--&amp;gt;C
+B--&amp;gt;D
+C--&amp;gt;D
+&lt;/code>&lt;/pre></description></item><item><title>Rectas</title><link>https://ch-random.net/post/2/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://ch-random.net/post/2/</guid><description>&lt;p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p></description></item></channel></rss>
