@@ -1,0 +1,17 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="my-footer-padding">
+  {{ $paginator := .Paginate .Data.Pages }}
+  <div class="isotope projects-container">
+    {{ range $paginator.Pages }}
+      {{ partial "li_card" . }}
+    {{ end }}
+
+  </div>
+  <br>
+  {{ partial "pagination" . }}
+
+</div>
+{{- end -}}

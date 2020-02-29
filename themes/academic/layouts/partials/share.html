@@ -1,0 +1,29 @@
+<!--
+{{ if and site.Params.sharing (ne .Params.share false) }}
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    {{ range where site.Data.page_sharer.buttons "enable" true }}
+      {{ if eq .icon "twitter" }}
+        {{ $pack := or .icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+        {{ end }}
+        {{ $link := replace .url "{url}" ($.Permalink | htmlEscape) }}
+        {{ $link = replace $link "{title}" ($.Title | htmlEscape) }}
+        <li>
+          <a href="{{$link|safeURL}}" target="_blank" rel="noopener" class="share-btn-{{.id}}">
+            <div class="tweet-box">
+              <center>
+              <i class="{{$pack}} {{$pack_prefix}}-{{.icon}}"></i>
+              この記事を共有
+              </center>
+            </div>
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+-->

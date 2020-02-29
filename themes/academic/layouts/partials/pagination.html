@@ -1,0 +1,46 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+<nav class="my-pager">
+<ul class="my-pagination">
+    {{ with $pag.First }}
+    <!--
+    <li class="pagination-other">
+        <a href="{{ .URL }}" {{ if not $pag.HasPrev }} disabled{{ end }} aria-label="First"><span aria-hidden="true">最初へ</span></a>
+    </li>
+    -->
+    {{ end }}
+    <li class="pagination-pre">
+        <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" {{ if not $pag.HasPrev }} disabled{{ end }} aria-label="Previous"><span aria-hidden="true"><</span></a>
+    </li>
+    {{ $ellipsed := false }}
+    {{ $shouldEllipse := false }}
+    {{ range $pag.Pagers }}
+    {{ $right := sub .TotalPages .PageNumber }}
+    {{ $showNumber := or (le .PageNumber 1) (eq $right 0) }}
+    {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 3)) (lt .PageNumber (add $pag.PageNumber 3)))  }}
+    {{ if $showNumber }}
+        {{ $ellipsed = false }}
+        {{ $shouldEllipse = false }}
+    {{ else }}
+        {{ $shouldEllipse = not $ellipsed }}
+        {{ $ellipsed = true }}
+    {{ end }}
+    {{ if $showNumber }}
+    <li><a class="{{ if eq . $pag }}pagination-active{{ end }}" href="{{ .URL }}"><span>{{ .PageNumber }}</span></a></li>
+    {{ else if $shouldEllipse }}
+    <li disabled class="pagination-none"><span aria-hidden="true">&nbsp;&hellip;&nbsp;</span></li>
+    {{ end }}
+    {{ end }}
+    <li class="pagination-next">
+      <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" {{ if not $pag.HasNext }}disabled{{ end }} aria-label="Next"><span aria-hidden="true">></span></a>
+    </li>
+    {{ with $pag.Last }}
+    <!--
+    <li class="pagination-other">
+        <a href="{{ .URL }}" {{ if not $pag.HasNext }}disabled{{ end }} aria-label="Last"><span aria-hidden="true">最後へ</span></a>
+    </li>
+    -->
+    {{ end }}
+</ul>
+</nav>
+{{ end }}

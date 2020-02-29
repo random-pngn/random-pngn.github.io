@@ -1,0 +1,74 @@
+// Override this file to add your own SCSS styling.
+
+.my-project {
+h1{
+  color: white;
+}
+p{
+  font-size: 0.8em;
+  color: white;
+}
+}
+
+.my-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #bd3333;/*ボタン色*/
+  color: #FFF;
+  border-width: 0px;
+  border-bottom: solid 4px #612222;
+  border-radius: 3px;
+}
+.my-button:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.my-box {
+  background-color: #313131;
+  width: 7em;
+  height: 0.2em;
+  margin-bottom: 2em;
+}
+
+.my-author-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 3em;
+  height: 0.2em;
+  margin: 3em 0 3em 0;
+}
+
+
+.my-divider {
+  padding: 20px 0px 0px 0px;
+}
+
+
+
+// .arrow1{
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 20px;
+//   height: 20px;
+//   border: 3px solid;
+//   // border-color:  transparent transparent #565656 #565656;
+//   border-color:  transparent transparent white white;
+//   transform: rotate(-45deg);
+// }
+//
+// .item_text {
+//   animation: key1 .3s ease infinite alternate;
+// }
+//
+// @keyframes key1 {
+//   0% {
+//     transform: translateY(0px) rotate(-45deg);
+//   }
+//
+//   100% {
+//     transform: translateY(-5px) rotate(-45deg);
+//   }
+// }

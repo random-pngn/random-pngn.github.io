@@ -1,0 +1,40 @@
+{{/* Pages Widget */}}
+
+{{/* Initialise */}}
+{{ $st := . }}
+{{ $taxonomy := $st.Params.content.taxonomy | default "tags" }}
+{{ $fontSmall := $st.Params.design.font_size_min | default 0.8 }}
+{{ $fontBig := $st.Params.design.font_size_max | default 2.5 }}
+
+{{ $items_count := 65535 }}
+
+{{/* Query */}}
+{{ $tags := first $items_count (index site.Taxonomies $taxonomy).ByCount }}
+{{ $count := len $tags }}
+
+<div class="row">
+  <div class="col-12">
+    {{ with $st.Content }}{{ . }}{{ end }}
+
+    {{ if ne $count 0 }}
+
+      {{ $fontDelta := sub $fontBig $fontSmall }}
+      {{ $min := len (index ($tags).Reverse 0).Pages }}
+      {{ $max := add (len (index $tags 0).Pages) 1 }}
+      {{ $delta := sub $max $min }}
+      {{ $fontStep := div $fontDelta $delta }}
+
+      <div class="tag-cloud">
+      {{ range $name, $term := $tags.Reverse }}
+        {{ $tagCount := len $term.Pages }}
+        {{ $weight := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+        <a href="{{ .Page.RelPermalink }}" class="badge badge-light" style="font-size: 1em">
+          <i class="fas fa-tag"></i>
+          {{ .Page.Title }} ({{ $tagCount }})
+        </a>
+      {{ end }}
+      </div>
+    {{ end }}
+
+  </div>
+</div>

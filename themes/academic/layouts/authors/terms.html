@@ -1,0 +1,64 @@
+{{/* List of all authors. */}}
+
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="article">
+  <div class="my-footer-padding">
+    <div class="isotope projects-container">
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $k, $v := $paginator.Pages }}
+        {{ $item := $v }}
+
+        {{/* Get summary. */}}
+        {{ $summary := "" }}
+        {{ if $item.Params.bio }}
+        {{ $summary = $item.Params.bio | markdownify | emojify }}
+        {{ end }}
+
+        {{ $link := $item.RelPermalink}}
+
+        {{ $author := index $item.Params.authors 0 }}
+        {{ $person_page_path := (printf "/authors/%s" (anchorize $author)) }}
+        {{ $person_page := site.GetPage $person_page_path }}
+        {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+        {{ $avatar_image := $avatar.Fill "250x250 Center" }}
+
+        <div class="my-profile-project-card project-item isotope-item">
+          <div class="card">
+            <div class="my-profile-card">
+              {{ with $avatar_image }}
+              <a href="{{ $link }}" class="card-image">
+                <div class="my-profile-square">
+                  <img class="my-portrait" src="{{ $avatar_image.RelPermalink }}" alt="Avatar">
+                </div>
+              </a>
+              {{ end }}
+              <div class="my-profile-rest">
+                <div class="my-profile-rest-child1">
+                  <div class="card-text">
+                    <h4>
+                      <a href="{{ $person_page_path }}">{{ $author }}</a>
+                    </h4>
+                    {{ with $summary }}
+                    <div class="article-style">
+                      <p>{{ . | truncate 135 }}</p>
+                    </div>
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      {{ end }}
+
+      {{ partial "pagination" . }}
+    </div>
+  </div>
+</div>
+
+{{- end -}}

@@ -1,0 +1,21 @@
+{{- define "main" -}}
+
+<div class="before-footer">
+  <article class="article">
+
+    {{ partial "page_header" . }}
+
+    <div class="article-container">
+
+      <div class="article-style">
+        {{ .Content }}
+      </div>
+
+      {{ partial "page_footer" . }}
+
+    </div>
+    {{ partial "my_page_footer" . }}
+  </article>
+</div>
+
+{{- end -}}
