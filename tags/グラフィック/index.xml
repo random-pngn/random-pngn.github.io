@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>グラフィック | Computer House Random</title>
+    <link>https://ch-random.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/</link>
+      <atom:link href="https://ch-random.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
+    <description>グラフィック</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>computer.house.random@gmail.com</copyright><lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ch-random.net/img/icon.png</url>
+      <title>グラフィック</title>
+      <link>https://ch-random.net/tags/%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF/</link>
+    </image>
+    
+    <item>
+      <title>らんだむすたじお！</title>
+      <link>https://ch-random.net/post/3/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/3/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;Hello Random-chan!&lt;/p&gt;
+&lt;p&gt;らんだむちゃんVtuber計画進捗報告です. Unityで録画環境を作りました. 以下のようなことができます.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;kinectでのモーショントラッキング&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;表情切り替え, 自動まばたき&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ランタイム中の設定画面操作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;スライド表示, 切り替え&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;簡易カメラ操作&lt;/p&gt;
+&lt;p&gt;使用したアセットは末尾に示します. また, Universal Rendering Pipelineを使用しているのでグラフィック面で少々仕様が違うことがあります.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;ここから部員向け&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;操作(デフォルト)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Esc:設定画面切り替え&lt;/li&gt;
+&lt;li&gt;↑, ↓:設定項目選択&lt;/li&gt;
+&lt;li&gt;Space:決定&lt;/li&gt;
+&lt;li&gt;→, ←:スライド切り替え&lt;/li&gt;
+&lt;li&gt;c:カメラ切り替え&lt;/li&gt;
+&lt;li&gt;w:口を開ける&lt;/li&gt;
+&lt;li&gt;a, d:ウインク&lt;/li&gt;
+&lt;li&gt;s:ジト目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;設定項目追加&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;プロジェクトはスケルトンに入っています. それを編集するか, コピーしてとってもらえればと思います.&lt;/li&gt;
+&lt;li&gt;(Assets/)Resources/Scripts/Setting.csで関数, パネルの追加を行えます. 詳しい方法はスクリプトを見るか直接聞いてください. 設定画面出し入れは空ゲームオブジェクトにStudioManagerをアタッチすればできます.&lt;/li&gt;
+&lt;li&gt;(Assets/)Resources/Scripts/CameraMove.csをカメラにアタッチすることで位置の保存, ランタイム中の位置変更ができます. ポジションはインスペクタで設定できます.&lt;/li&gt;
+&lt;li&gt;(Assets/)Resources/Scripts/SlideManager.csをImageコンポーネントにアタッチすることでスライドが使えます. スライドは現在Sprite(png, jpegなどをインポートして変換)のみ対応しています.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;動画に合わせていじるべきところ&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;マテリアル:シェーダーは作成したもの(入力ベクトルに応じて2値化っぽくするもの)を使っていますが, 素のシェーダーの方がいいかもです.&lt;/li&gt;
+&lt;li&gt;カメラ操作:ランタイム中の操作に合わせて実装してください.&lt;/li&gt;
+&lt;li&gt;何か欲しい機能があれば言ったら実装するかもしれません.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;heading-2&#34;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;動画&amp;hellip;作ろう&amp;hellip;&lt;/p&gt;
+&lt;p&gt;#使用したアセット&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;kinect with MS-SDK&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://assetstore.unity.com/packages/tools/kinect-with-ms-sdk-7747&#34;&gt;https://assetstore.unity.com/packages/tools/kinect-with-ms-sdk-7747&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>らんだむちゃん</title>
+      <link>https://ch-random.net/post/8/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/8/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;こんにちは. Yuです.
+描くたびに顔が変わるらんだむちゃん描きました.&lt;/p&gt;
+&lt;p&gt;完成までの過程を比較すると面白いかも.&lt;/p&gt;
+&lt;h3 id=&#34;heading-1&#34;&gt;ラフ&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%882-1.png&#34; alt=&#34;c&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;heading-2&#34;&gt;線画&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%882-0.png&#34; alt=&#34;c&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;heading-3&#34;&gt;着色&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%882.png&#34; alt=&#34;c&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;heading-4&#34;&gt;編集&lt;/h3&gt;
+&lt;p&gt;雑誌風&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;A4-3.png&#34; alt=&#34;c&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;heading-5&#34;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;らんだむちゃんはかわいいのでみんな描こう！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>らんだむちゃん</title>
+      <link>https://ch-random.net/post/9/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/9/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;はじめに&lt;/h1&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;TemplateData/style.css&#34;&gt;
+&lt;script src=&#34;TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;Build/UnityLoader.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  var unityInstance = UnityLoader.instantiate(&#34;unityContainer&#34;, &#34;Build/Gift4Yukari3.json&#34;, {onProgress: UnityProgress});
+&lt;/script&gt;
+&lt;div class=&#34;webgl-content&#34;&gt;
+  &lt;div id=&#34;unityContainer&#34; style=&#34;width: 960px; height: 540px&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;footer&#34;&gt;
+    &lt;div class=&#34;webgl-logo&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;fullscreen&#34; onclick=&#34;unityInstance.SetFullscreen(1)&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;Gift For Yukari-san&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;こんにちは. Yuです.
+描くたびに顔が変わるらんだむちゃん描きました.&lt;/p&gt;
+&lt;p&gt;完成までの過程を比較すると面白いかも.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>らんだむちゃん</title>
+      <link>https://ch-random.net/post/2/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/2/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;こんにちは. Yuです.
+らんだむちゃんまとめました.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;random-chang.gif&#34; alt=&#34;c&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;random.jpg&#34; alt=&#34;b&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;random.png&#34; alt=&#34;a&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;絵柄を安定させたいなと思いました.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web | Computer House Random</title>
+    <link>https://ch-random.net/tags/web/</link>
+      <atom:link href="https://ch-random.net/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <description>web</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>computer.house.random@gmail.com</copyright><lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ch-random.net/img/icon.png</url>
+      <title>web</title>
+      <link>https://ch-random.net/tags/web/</link>
+    </image>
+    
+    <item>
+      <title>HugoでWeb構築</title>
+      <link>https://ch-random.net/post/1/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/post/1/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;こんにちは。情報2回のpngnです。皆さんはHugoってご存知ですか？僕はこのサイトを作り始めるまで知りませんでした。よく知らない方のためにかいつまんで特徴を説明すると&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;静的サイトジェネレーター(つまりphpとかサーバー側で動かす処理が書けない)&lt;/li&gt;
+&lt;li&gt;Goで書かれていて速い&lt;/li&gt;
+&lt;li&gt;マークダウンで書ける&lt;/li&gt;
+&lt;li&gt;静的サイトなのでGithub PageやNetlifyが無料で使える&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;らしいです。今回はAcademicというHugoのテーマを利用しました。&lt;/p&gt;
+&lt;p&gt;この記事はこのサイトを使いたい方(つまり部員)とAcademicのテーマをソースレベルでいじりたい方(いるのかなぁ)に向けて書かれています。&lt;/p&gt;
+&lt;h1 id=&#34;hugo&#34;&gt;Hugoの使い方&lt;/h1&gt;
+&lt;p&gt;自分のパソコンでHugoを動かしたい人はやりましょう。Academicを使うためにHugo Extendedを&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;このページ&lt;/a&gt;からダウンロードしてインストールします。&lt;strong&gt;Extended&lt;/strong&gt;をダウンロードする事に注意。このサイトのテーマのソースコードは&lt;a href=&#34;&#34;&gt;ここ&lt;/a&gt;からダウンロードできます。&lt;br&gt;
+gitでcloneしてきて、そのrootフォルダに移動してターミナルで&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt; &amp;gt; hugo server  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;と打ちましょう。http://localhost:1313/でアクセスできるようになります。ビルドはhugoコマンドです。&lt;/p&gt;
+&lt;p&gt;コンテンツは基本的にcontentフォルダに入っています。その中でAcademicにおいて特別に意味のあるフォルダを紹介します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;authors: 著者 (&lt;a href=&#34;./data/authors.zip&#34;&gt;テンプレート&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;post: ブログ (&lt;a href=&#34;./data/post.zip&#34;&gt;テンプレート&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;slides: スライド (&lt;a href=&#34;./data/slides.zip&#34;&gt;テンプレート&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;project: プロジェクト&lt;/li&gt;
+&lt;li&gt;home: トップページ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基本的にそれぞれのフォルダの中に記事のフォルダを入れて、その中にindex.md(authorsは_index.md)とfeatured.png/jpgを入れるとOKです。画像は縦横比3:4のものが理想です。index.mdはテンプレートを参考に書いて下さい。カスタムCSSも使えます。&lt;/p&gt;
+&lt;h1 id=&#34;academic&#34;&gt;Academicのカスタマイズ&lt;/h1&gt;
+&lt;p&gt;これ需要あるのか分からないですが、僕がAcademicをいじった時つまった事を共有しておきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;/themes/academic/の中のどのファイルをいじればいいか分からない
+&lt;ul&gt;
+&lt;li&gt;だいたい/layouts/partials/の中&lt;/li&gt;
+&lt;li&gt;たまに/layouts/_default/とか/layouts/section/とか&lt;/li&gt;
+&lt;li&gt;CSSは/assets/scss/の中&lt;/li&gt;
+&lt;li&gt;どうしても分からない時はacademicのgithub内検索&lt;/li&gt;
+&lt;li&gt;ファイルの中身を一時的に消してどう変化するかを見ると分かりやすいよ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ライブラリのコードをいじる際、たまにHot Reloadがかからない事がある
+&lt;ul&gt;
+&lt;li&gt;hugo serverし直せばよい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hugo独特の書き方がキモい(はい)&lt;/li&gt;
+&lt;li&gt;AcademicはTagに日本語が入るとリンクが切れるバグ？があるので注意
+&lt;ul&gt;
+&lt;li&gt;/layouts/partials/tags.htmlをいじるとなおった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;いかがでしたか？何の役にも立ちませんね。そもそもテーマのソースをいじろうと思う人って僕のアドバイスなんて必要ないですよね。おわり&lt;/p&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;思った事&lt;/h1&gt;
+&lt;p&gt;ここまで読んで、pngnってWebつよつよマンなんだなぁって思われるかもしれないですが、実は僕Web初心者です。html触るの久しぶりだしCSSはノリで書いてるのでゴミコードを書いてしまった気がします。そんな僕が今回Webを作って思った事を書きます。&lt;br&gt;
+そもそもhtmlってトップダウンでできてますよね。簡単に言うと親から順番にDOMが決まるって事です。子要素が親DOMの情報に依存する&amp;hellip;けれども親の情報を取るのは簡単じゃない状況ってモジュール化の観点で微妙な気がします。例えば親にかかっているCSSによって子要素のデザインは変化しますが、それが何か知ることは出来ないですよね？(あったら教えて下さい)それが大規模開発における複雑さの原因になりうると僕は思います。後は同じソースにhtml, js, css, hugoやphpなど複数の言語が存在するのは複雑だし、CSSでPCとスマホ両方に対応させないといけないの大変ですよね。クロスプラットのflutter、Web版はCanvasで描かれているようで、現状遅いです。今後に期待&lt;/p&gt;
+&lt;h1 id=&#34;heading-2&#34;&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;部員のみんなは記事書いてね&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

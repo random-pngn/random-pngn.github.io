@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>部員紹介 | Computer House Random</title><link>https://ch-random.net/authors/</link><atom:link href="https://ch-random.net/authors/index.xml" rel="self" type="application/rss+xml"/><description>部員紹介</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>computer.house.random@gmail.com</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate><image><url>https://ch-random.net/img/icon.png</url><title>部員紹介</title><link>https://ch-random.net/authors/</link></image><item><title/><link>https://ch-random.net/authors/pngn/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://ch-random.net/authors/pngn/</guid><description>&lt;p>pngn otakuの自己紹介が入ります&lt;/p></description></item><item><title/><link>https://ch-random.net/authors/admin/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://ch-random.net/authors/admin/</guid><description>&lt;p>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>部員紹介 | Computer House Random</title>
+    <link>https://ch-random.net/authors/</link>
+      <atom:link href="https://ch-random.net/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>部員紹介</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>computer.house.random@gmail.com</copyright><lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ch-random.net/img/icon.png</url>
+      <title>部員紹介</title>
+      <link>https://ch-random.net/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://ch-random.net/authors/pngn/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/authors/pngn/</guid>
+      <description>&lt;p&gt;普段は競プロ(C++)をしてます。AtCoderのIDは&lt;a href=&#34;https://atcoder.jp/users/pngn&#34;&gt;pngn&lt;/a&gt;です。青と黄色の間を行ったり来たりしています。&lt;br&gt;
+最近は趣味でflutterでアプリ開発したり、Hugoをいじってます。&lt;br&gt;
+好きなOSはUbuntu!好きなシェルはzsh!好きなエディタはVimです!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ch-random.net/authors/atsu/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/authors/atsu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://oculus.com/quest/&#34;&gt;Oculus Quest&lt;/a&gt;をご存知でしょうか. 5万円で買えるスタンドアローン(ココ大事!)VRHMDです. ゲーミングPC要らず, スマホでのセットアップだけでお手軽にVRへ飛べます. 開発もUnityやUE4を使えば比較的簡単にできます. 軽率に仮想空間作っていきましょう. 私は主にUnityでらんだむちゃんの録画環境作ったり, レイマーチングなど3Dレンダリングしたりしてます. らんだむちゃん@Vtuberをよろしく&amp;hellip;&lt;/p&gt;
+&lt;p&gt;あ、自分の&lt;a href=&#34;https://o-atsu.github.io/Okamoto_Portfolio/&#34;&gt;ポートフォリオ&lt;/a&gt;です.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ch-random.net/authors/yuki/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ch-random.net/authors/yuki/</guid>
+      <description>&lt;p&gt;Yukarisansu Ki。
+らんだむちゃん描きます。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
